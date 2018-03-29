@@ -1,2 +1,1 @@
-# DNetVix
-Dynamic Network Visualization Tool 
+Git repo for DNetViz (Dynamic Network Visualization) project.

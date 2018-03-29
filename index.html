@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>DNetViz</title>    
+	<link rel="stylesheet" href="net-viz.css"/>
+	<link rel="stylesheet" href="d3.slider.css" /> 
+</head>
+
+<body>
+<!--  Comment -->
+
+	<h1>DNetViz (Dynamic Network Visualization)</h1>
+	<div id=wrapper>
+		<div id="force-layout-graph"></div>
+		<div id="dropdown">
+			<h4>Select data set:</h4>
+			<select id="dataset">
+				<option value="data/workplace_small.json" selected="selected" >Work Place</option>
+				<option value="data/school.json" >High School</option>
+			</select>
+			<h4>Group labels:</h4>
+			<div id="group_container" >
+			</div>
+		</div>
+	</div>
+   
+    <div class="wrapper">
+    
+		<h2> Slider values: <span id="slider3textmin"></span>, <span id="slider3textmax"></span></h2>    
+		<div id="slider3"></div>
+	</div>
+	
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="d3.slider.js"></script>
+    <script src="net-viz.js"></script>
+  
+</body>
+</html>
